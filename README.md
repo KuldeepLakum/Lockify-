@@ -5,9 +5,13 @@
 🌟 Features
 
 ✅ Real-time password validation (checks length, uppercase, lowercase, number, and special characters)
+
 ✅ Instant feedback with color-coded validation messages
+
 ✅ Eye toggle button to show/hide password visibility 🔁
+
 ✅ Fully responsive - works smoothly on all devices 📱💻
+
 ✅ Simple, lightweight, and easy to use
 
 🎬 Live Demo

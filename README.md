@@ -1,7 +1,9 @@
 🔐 PassGuard - Password Strength Checker
+
 🚀 PassGuard is a sleek and interactive Password Strength Checker that helps users create strong and secure passwords in real-time. With an intuitive UI, instant feedback, and a built-in show/hide toggle, it ensures your passwords meet the highest security standards.
 
 🌟 Features
+
 ✅ Real-time password validation (checks length, uppercase, lowercase, number, and special characters)
 ✅ Instant feedback with color-coded validation messages
 ✅ Eye toggle button to show/hide password visibility 🔁
@@ -9,9 +11,11 @@
 ✅ Simple, lightweight, and easy to use
 
 🎬 Live Demo
+
 🔗 Check it out here ([Replace with your live demo link](https://kuldeeplakum.github.io/Lockify-/))
 
 🛠 Tech Stack
+
 • HTML5, CSS3 (for structure & styling)
 • JavaScript (ES6+) (for dynamic validation)
 
@@ -33,12 +37,15 @@ git clone https://github.com/KuldeepLakum/PassGuard.git
 • Start checking password strength instantly!
 
 🎨 Customization
+
 Feel free to modify the styles in style.css and enhance the validation logic in app.js.
 
 🤝 Contributions
+
 🚀 Pull requests are welcome! If you’d like to improve PassGuard, feel free to contribute.
 
 📝 License
+
 This project is licensed under the MIT License.
 
 💡 Star this repo ⭐ and help others build stronger passwords!

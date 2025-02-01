@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: #E5D0AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6D2323;
+    text-align: center;
+}
+
+.pass-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pass-box input {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 0 1.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+.pass-criteria {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btnc {
+    width: 100%;
+    background-color: #6D2323;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: .7rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btnc:hover {
+    background-color: #8B2E2E;
+}
+
+.msg {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.msg p {
+    display: none;
+}
+.pass-box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pass-box input {
+    width: 100%;
+    height: 3rem;
+    /* line-height: 3rem; */
+    padding: 0 1.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+.toggle-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #6D2323;
+    outline: none;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 15px;
+
+}
+hr{
+    margin: 1rem 0;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 1.5rem;
+    }
+}
